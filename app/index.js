@@ -85,6 +85,7 @@ var StartBaseKitWidgetGenerator = yeoman.generators.Base.extend({
     this.template('widget.twig', this.widgetNameSpace+'/widget.twig', context);
 
     this.copy('icon.png', this.widgetNameSpace+'/icon.png');
+    this.copy('styles.css', this.widgetNameSpace+'/styles.css');
   },
 
   projectfiles: function () {

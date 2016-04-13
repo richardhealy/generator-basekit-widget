@@ -1,0 +1,18 @@
+{
+  "name": "generator-basekit-widget",
+  "version": "0.1.0",
+  "description": "BaseKit Widget generator",
+  "author": "Richard Healy (https://github.com/richardhealy)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "index.js",
+  "files": [
+    "app"
+  ],
+  "dependencies": {
+    "chalk": "^0.5.0",
+    "yeoman-generator": "^0.20.3"
+  },
+  "license": "ISC"
+}

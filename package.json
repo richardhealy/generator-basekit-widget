@@ -2,7 +2,7 @@
   "name": "generator-basekit-widget",
   "version": "0.1.0",
   "description": "BaseKit Widget generator",
-  "author": "Richard Healy (https://github.com/richardhealy)",
+  "author": "Richard Healy (https://github.com/richardhealy), BaseKit Platform Ltd",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,5 +14,13 @@
     "chalk": "^0.5.0",
     "yeoman-generator": "^0.20.3"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "https://github.com/richardhealy/generator-basekit-widget",
+  "bugs": {
+    "url": "https://github.com/richardhealy/generator-basekit-widget/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/richardhealy/generator-basekit-widget"
+  }
 }

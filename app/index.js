@@ -6,7 +6,7 @@ var chalk = require('chalk');
 
 function captialize(str) {
   str = str.replace(/\s+/g, '');
-  return (str.charAt(0).toUpperCase() + str.slice(1));
+  return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
 }
 
 var StartBaseKitWidgetGenerator = yeoman.generators.Base.extend({

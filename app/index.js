@@ -4,6 +4,11 @@ var path = require('path');
 var yeoman = require('yeoman-generator');
 var chalk = require('chalk');
 
+function captialize(str) {
+  str = str.replace(/\s+/g, '');
+  return (str.charAt(0).toUpperCase() + str.slice(1));
+}
+
 var StartBaseKitWidgetGenerator = yeoman.generators.Base.extend({
   init: function () {
     this.pkg = require('../package.json');
@@ -42,7 +47,7 @@ var StartBaseKitWidgetGenerator = yeoman.generators.Base.extend({
     name: 'widgetNameSpace',
     message: 'Unique NameSpace for the project (alphanumeric)?',
     default: function( answers ) {
-        return answers.widgetName.toUpperCase()
+        return captialize(answers.widgetName)
       }
     }
   ];//end prompts

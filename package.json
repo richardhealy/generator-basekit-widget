@@ -1,6 +1,6 @@
 {
   "name": "generator-basekit-widget",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "BaseKit Widget generator; this is ALPHA and should only be used if you have been trained by BaseKit.",
   "author": "Richard Healy (https://github.com/richardhealy), BaseKit Platform Ltd",
   "scripts": {

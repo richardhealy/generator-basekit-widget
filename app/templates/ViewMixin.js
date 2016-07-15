@@ -9,7 +9,7 @@
         formattedSettings: function () {
             // Example
             return {
-                title: 'Text',
+                title: App.t('widgets.<%= widgetType %>.title', '<%= widgetName %>'),
                 components: [ {
                     id: '<%= widgetType %>-text',
                     type: 'text',
